@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kontakt & Impressum</title>
   <link rel="stylesheet" href="../css/stylesheet.css">
+  <style>
+    /* Galerie-Layout */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1em;
+      margin-top: 1.5em;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -24,7 +45,19 @@
   <main>
     <p>Kontaktieren Sie uns unter <a href="mailto:info@tierwelt.ch">info@tierwelt.ch</a></p>
     <h2>Unser Standort</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18..."
+            width="100%" height="300" style="border:0;"
+            allowfullscreen="" loading="lazy"></iframe>
+
+    <h2>Bildgalerie</h2>
+    <div class="gallery">
+      <img src="../assets/chihuahua1.jpg" alt="Chihuahua 1">
+      <img src="../assets/chihuahua2.jpg" alt="Chihuahua 2">
+      <img src="../assets/chihuahua3.jpg" alt="Chihuahua 3">
+      <img src="../assets/chihuahua4.jpg" alt="Chihuahua 4">
+      <img src="../assets/chihuahua5.jpg" alt="Chihuahua 5">
+      <img src="../assets/chihuahua6.jpg" alt="Chihuahua 6">
+    </div>
   </main>
 
   <footer>
@@ -32,3 +65,4 @@
   </footer>
 </body>
 </html>
+
