@@ -98,10 +98,24 @@ p {
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
   transition: transform 0.3s ease;
   max-width: 100%;
+  height: auto;
 }
 
 .intro img:hover, .gallery-item img:hover {
   transform: scale(1.05);
+}
+
+/* NEU: Bildreihe */
+.image-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* sorgt dafür, dass sie bei kleinen Screens untereinander rutschen */
+}
+
+.image-row img {
+  flex: 1 1 45%;
+  max-width: 500px;
 }
 
 /* Info-Box */
