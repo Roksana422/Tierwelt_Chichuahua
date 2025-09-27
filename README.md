@@ -1,4 +1,3 @@
-=======
 # Tierwelt – Chihuahua Webseite
 
 ##  Live-System
@@ -27,6 +26,7 @@ Navigation: einheitliches Menüband oben  rechts auf jeder Seite.
 - Wenn man auf ein Bild drückt unterheuchtet es sich hellweiss. 
 - Tabelle zum Vergleich von Kurz- und Langhaar-Chihuahuas  
 - Responsives Layout für Desktop und Smartphone  
+- Unterhalb von Impressum Bildgalerie
 
 ## Bekannte Limitierungen
 - Seite ist statisch, keine Datenbank oder Suchfunktion   
