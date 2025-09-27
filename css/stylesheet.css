@@ -1,0 +1,158 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Grundlayout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  background: linear-gradient(to bottom, #fdfdfd, #eef3f9);
+  color: #333;
+}
+
+/* ---------- HEADER & MENÜ ---------- */
+header {
+  background: linear-gradient(90deg, #0466c8, #0096c7);
+  padding: 15px 25px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgb(255, 255, 255);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background: #ffb703;
+  transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+.nav-links li a.active {
+  color: #ffb703;
+  font-weight: 600;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  color: #0466c8;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+/* Bilder */
+.intro img, .gallery-item img {
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  max-width: 100%;
+}
+
+.intro img:hover, .gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Info-Box */
+.info-box {
+  background: #f0faff;
+  padding: 20px;
+  margin: 25px 0;
+  border-left: 6px solid #0466c8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Galerie */
+.gallery {
+  display: flex;
+  gap: 25px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Tabelle */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background: #0466c8;
+  color: white;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: linear-gradient(90deg, #023e8a, #0466c8);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
