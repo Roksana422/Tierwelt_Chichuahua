@@ -3,6 +3,10 @@
 ##  Live-System
 https://roksana422.github.io/Tierwelt_Chichuahua/
 
+## Wireframe
+![Wireframe](doc/Wireframe.jpg)
+
+
 ## Thema & Zielgruppe
 Die Webseite stellt die beiden bekanntesten Chihuahua-Arten vor: Kurzhaar und Langhaar.  
 Zielgruppe sind Hundefreunde, Tierliebhaber und Personen die sich für kleine Hunderassen interessieren.
