@@ -28,7 +28,7 @@ Navigation: Einheitliches Menüband oben rechts auf jeder Seite.
 - Einheitliches Design auf allen Seiten
 - Bilder leuchten weiss auf, wenn man sie anklickt
 - Vergleichstabelle Kurzhaar vs. Langhaar
-- Responsives Layout (funktioniert auch auf dem Handy)
+- Responsives Design (funktioniert auch auf dem Handy)
 - Unterhalb vom Impressum gibt es eine kleine Bildergalerie mit Bildern
 - Bilder haben einen runden Rand.
 - Hintergrund des Titels hat einen Farbverlauf.
