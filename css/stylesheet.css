@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* ---------- HEADER & MENÜ ---------- */
+/* Header und Menü*/
 header {
   background: linear-gradient(90deg, #0466c8, #0096c7);
   padding: 15px 25px;
@@ -71,7 +71,7 @@ header .container {
   font-weight: 600;
 }
 
-/* ---------- MAIN CONTENT ---------- */
+/*  Main Content */
 main {
   padding: 50px 20px;
   max-width: 1100px;
@@ -107,7 +107,7 @@ p {
   transform: scale(1.05);
 }
 
-/* ---------- Bildreihe ---------- */
+/*  Bildreihe  */
 .image-row {
   display: flex;
   gap: 20px;
@@ -120,7 +120,7 @@ p {
   max-width: 500px;
 }
 
-/* ---------- Info-Box ---------- */
+/*Info Box  */
 .info-box {
   background: #f0faff;
   padding: 20px;
@@ -130,7 +130,7 @@ p {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-/* ---------- Galerie Flex (Standard-Seiten: index1, index2) ---------- */
+/* Galerie Flex (Standard-Seiten: index1, index2)  */
 .gallery {
   display: flex;
   gap: 30px;
@@ -141,7 +141,7 @@ p {
 }
 
 .gallery img {
-  max-width: 600px;   /* <-- Bilder größer gemacht */
+  max-width: 600px;   
   width: 100%;
   border-radius: 14px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.2);
@@ -152,7 +152,7 @@ p {
   transform: scale(1.05);
 }
 
-/* ---------- Galerie Grid (nur Impressum) ---------- */
+/*  Galerie Grid*/
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 Bilder pro Reihe */
@@ -172,7 +172,7 @@ p {
   transform: scale(1.05);
 }
 
-/* ---------- Feature-Liste ---------- */
+/*  Feature Liste  */
 .feature-list {
   margin: 20px 0;
   padding-left: 20px;
@@ -185,7 +185,7 @@ p {
   margin-bottom: 8px;
 }
 
-/* ---------- Tabelle ---------- */
+/*  Tabelle */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -206,7 +206,7 @@ table th {
   color: white;
 }
 
-/* ---------- FOOTER ---------- */
+/* Footer */
 footer {
   background: linear-gradient(90deg, #023e8a, #0466c8);
   color: rgb(255, 255, 255);
@@ -216,4 +216,3 @@ footer {
   font-size: 14px;
   letter-spacing: 0.5px;
 }
-
