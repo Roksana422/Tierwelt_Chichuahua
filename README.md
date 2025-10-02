@@ -8,32 +8,36 @@ Die Webseite stellt die beiden bekanntesten Chihuahua-Arten vor: Kurzhaar und La
 Zielgruppe sind Hundefreunde, Tierliebhaber und Personen, die sich für kleine Hunderassen interessieren.
 
 ##  Seitenübersicht & Navigationskonzept
-- **Startseite (index.html):** Begrüssung, allgemeine Infos und Bild mit verschiedenen Chichuahuas.
+- **Startseite (index.html):** Begrüssung, allgemeine Infos und Bild mit verschiedenen Chichuahuas, Diagramm.
 - **Kurzhaar Chihuahua (inhalt1.html):** Infos, Bild und Vergleichstabelle  
 - **Langhaar Chihuahua (inhalt2.html):** Infos und Bild 
-- **Kontakt (impressum.html):** Kontaktinformationen und Standort (Karte)
+- **Kontakt (impressum.html):** Kontaktinformationen und Standort(Karte), und E-Mail.
 
-Navigation: einheitliches Menüband oben  rechts auf jeder Seite.
+Navigation: einheitliches Menüband oben rechts auf jeder Seite.
 
 ##  Genutzte Quellen
-- Bilder: Pixbay  
-- Texte: eigene Zusammenfassung, keine geschützten Inhalte übernommen  
-
-*(Urheberrecht habe ich beachtet – keine fremden Bilder/Texte ohne Lizenz!)*
+- Bilder: Pixabay
+- Texte: eigene Zusammenfassung (Quelle: Wikipedia, Google)
+- Ich habe darauf geachtet, dass keine geschützten Inhalte ohne Lizenz übernommen wurden.
 
 ##  Besonderheiten & Extras
-- Einheitliches Design  
-- Wenn man auf ein Bild drückt unterheuchtet es sich hellweiss. 
-- Tabelle zum Vergleich von Kurz- und Langhaar-Chihuahuas  
-- Responsives Layout für Desktop und Smartphone  
-- Unterhalb von Impressum Bildgalerie
+- Einheitliches Design auf allen Seiten
+- Bilder leuchten weiss auf, wenn man sie anklickt
+- Vergleichstabelle Kurzhaar vs. Langhaar
+- Responsives Layout (funktioniert auch auf dem Handy)
+- Unterhalb vom Impressum gibt es eine kleine Bildergalerie mit lustigen Bildern
+- Bilder haben einen runden Rand.
+- Hintergrund des Titels hat einen Farbverlauf.
+
 
 ## Bekannte Limitierungen
-- Seite ist statisch, keine Datenbank oder Suchfunktion   
-- Nur begrenzte Anzahl an Bildern  
+- Es sind nur wenige Bilder eingebaut, nicht so viele wie auf grossen Webseiten
+- Inhalte sind noch nicht sehr ausführlich, man könnte mehr Text einsetzen.
+
 
 ## Ideen für Weiterentwicklung
-- Erweiterung um weitere Hunderassen  
-- Mehrsprachige Version (Deutsch/Englisch)  
-- Mehr Informationen auf der Webseite
+- Mehr Infos über andere Hunderassen hinzufügen
+- Webseite zweisprachig machen (z.B Deutsch, English und Französisch)
+- Weitere Unterseiten für z. B. Pflege, Futter oder Training
+- Eventuell ein Quiz oder Umfrage am Ende der Webseite.
 
