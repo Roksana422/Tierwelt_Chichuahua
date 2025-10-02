@@ -88,7 +88,7 @@ p {
   color: #000000;
 }
 
-/* Bilder */
+/* Bilder allgemein */
 .intro img, .gallery-item img {
   margin-top: 20px;
   border-radius: 12px;
@@ -102,12 +102,12 @@ p {
   transform: scale(1.05);
 }
 
-/* NEU: Bildreihe */
+/* ---------- Bildreihe ---------- */
 .image-row {
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap; /* sorgt dafür, dass sie bei kleinen Screens untereinander rutschen */
+  flex-wrap: wrap;
 }
 
 .image-row img {
@@ -115,7 +115,7 @@ p {
   max-width: 500px;
 }
 
-/* Info-Box */
+/* ---------- Info-Box ---------- */
 .info-box {
   background: #f0faff;
   padding: 20px;
@@ -125,7 +125,7 @@ p {
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
-/* Galerie */
+/* ---------- Galerie Flex (Standard-Seiten: index1, index2) ---------- */
 .gallery {
   display: flex;
   gap: 25px;
@@ -135,7 +135,39 @@ p {
   text-align: center;
 }
 
-/* Tabelle */
+.gallery img {
+  max-width: 450px;   /* <-- Bilder größer gemacht */
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- Galerie Grid (nur Impressum) ---------- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin-top: 1.5em;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- Tabelle ---------- */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -166,4 +198,6 @@ footer {
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
+
 
