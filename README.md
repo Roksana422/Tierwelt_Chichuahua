@@ -5,7 +5,7 @@ https://roksana422.github.io/Tierwelt_Chichuahua/
 
 ## Thema & Zielgruppe
 Die Webseite stellt die beiden bekanntesten Chihuahua-Arten vor: Kurzhaar und Langhaar.  
-Zielgruppe sind Hundefreunde, Tierliebhaber und Personen, die sich für kleine Hunderassen interessieren.
+Zielgruppe sind Hundefreunde, Tierliebhaber und Personen die sich für kleine Hunderassen interessieren.
 
 ##  Seitenübersicht & Navigationskonzept
 - **Startseite (index.html):** Begrüssung, allgemeine Infos und Bild mit verschiedenen Chichuahuas, Diagramm.
@@ -13,7 +13,7 @@ Zielgruppe sind Hundefreunde, Tierliebhaber und Personen, die sich für kleine H
 - **Langhaar Chihuahua (inhalt2.html):** Infos und Bild 
 - **Kontakt (impressum.html):** Kontaktinformationen und Standort(Karte), und E-Mail.
 
-Navigation: einheitliches Menüband oben rechts auf jeder Seite.
+Navigation: Einheitliches Menüband oben rechts auf jeder Seite.
 
 ##  Genutzte Quellen
 - Bilder: Pixabay
@@ -25,7 +25,7 @@ Navigation: einheitliches Menüband oben rechts auf jeder Seite.
 - Bilder leuchten weiss auf, wenn man sie anklickt
 - Vergleichstabelle Kurzhaar vs. Langhaar
 - Responsives Layout (funktioniert auch auf dem Handy)
-- Unterhalb vom Impressum gibt es eine kleine Bildergalerie mit lustigen Bildern
+- Unterhalb vom Impressum gibt es eine kleine Bildergalerie mit Bildern
 - Bilder haben einen runden Rand.
 - Hintergrund des Titels hat einen Farbverlauf.
 
