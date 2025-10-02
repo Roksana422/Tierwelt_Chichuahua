@@ -37,6 +37,7 @@ Navigation: Einheitliches Menüband oben rechts auf jeder Seite.
 ## Bekannte Limitierungen
 - Es sind nur wenige Bilder eingebaut, nicht so viele wie auf grossen Webseiten
 - Inhalte sind noch nicht sehr ausführlich, man könnte mehr Text einsetzen.
+- Keine dynamische Filterung der Tierseiten (alle Tiere statisch
 
 
 ## Ideen für Weiterentwicklung
